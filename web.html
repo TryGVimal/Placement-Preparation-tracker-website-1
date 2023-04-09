@@ -17,6 +17,17 @@
     />
 
     <title>Web Development</title>
+    <style>
+      .show1{
+        display: flex;
+        margin: 15vh auto;
+        justify-content: center;
+      }
+      #h2{
+        color: red;
+        margin-right: 15px;
+      }
+    </style>
   </head>
   <body>
 
@@ -43,10 +54,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="About.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact Us</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -83,7 +94,7 @@
               <a href="login.html" style="color: white;">LogIn</a>
             </button>
             <button type="button" class="btn btn-danger" mx-2>
-              <a href="login.html" style="color: white;">Signup</a>
+              <a href="signUp.html" style="color: white;">Signup</a>
             </button>
           </div>
         </form>
@@ -92,8 +103,9 @@
 
 
  <div class="conatiner d-flex justify-content-center align-items-center">
-     
-    <div class="dropdown show">
+   
+   <div class="dropdown show show1">
+      <h2 id ="h2">Please select your Topic for study :-</h2>
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Choose Topic
         </a>
