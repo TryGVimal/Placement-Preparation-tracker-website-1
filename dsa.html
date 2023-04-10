@@ -25,9 +25,9 @@
       }
       .fw-bold {
         font-weight: bold;
-        font-size:3vh;
+        font-size: 3vh;
       }
-      .dflex{
+      .dflex {
         display: flex;
         text-align: center;
         justify-content: center;
@@ -41,12 +41,11 @@
         .c3,
         .c4,
         .c5 {
-         display: flex;
-         flex-flow: column wrap;
-         justify-content: center;
-         align-items: center;
-         margin: auto -3vh;
-         width: 100%;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+          margin: auto 0vh;
         }
         .card {
           display: flex;
@@ -54,21 +53,20 @@
           height: 20vh;
           width: 5vh;
         }
-        .card-body{
+        .card-body {
           display: flex;
           margin: auto auto;
           height: fit-content;
-          width: 100%;
-
-        }
-        body{
-          position: fixed;
+          width: fit-content;
         }
       }
-        @media screen and (max-width: 370px ) {
-          body {
+      @media screen and (max-width: 380px) {
+        body {
           background-color: rgb(236, 185, 185);
-          }
+          height: fit-content;
+          width: 57vh;
+          margin: auto auto;
+        }
       }
     </style>
     <title>DSA PAGE</title>
@@ -134,7 +132,8 @@
           </button>
           <div class="mx-2">
             <button type="button" class="btn btn-danger" mx-2>
-              <a href="login.html" style="color: white">LogIn</a></button>
+              <a href="login.html" style="color: white">LogIn</a>
+            </button>
             <button type="button" class="btn btn-danger" mx-2>
               <a href="signUp.html" style="color: white">Signup</a>
             </button>
@@ -148,19 +147,22 @@
     <!-- Div 1 -->
     <div class="c1 d-flex justify-content-center fluid">
       <div
-        class="card text-black mb-3 mx-5 my-4"
-        style="height:36vh; width:48vh"
+        class="card text-black mb-3 mx-2 my-4"
+        style="height: 36vh; width: 48vh"
         id="Div1"
       >
         <div class="card-header text-danger fw-bold">Array</div>
-        <div class="card-body  dflex">
+        <div class="card-body dflex">
           <h5 class="card-title">Total Question - 36</h5>
           <p class="card-text"></p>
           <a class="btn btn-primary" href="Array.html" role="button">Start</a>
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="  width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-4"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-primary fw-bold">String</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 43</h5>
@@ -169,7 +171,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style=" width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-4"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-success fw-bold">Linked List</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 36</h5>
@@ -183,7 +188,10 @@
 
     <!-- Div 2 -->
     <div class="c2 d-flex justify-content-center">
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-primary fw-bold">Greedy</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 35</h5>
@@ -192,7 +200,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-success fw-bold">Binary Tree</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 35</h5>
@@ -201,7 +212,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-danger fw-bold">Binary search Tree</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 22</h5>
@@ -213,7 +227,10 @@
 
     <!-- Div 3 -->
     <div class="c3 d-flex justify-content-center">
-      <div class="card bg-light mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card bg-light mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-danger fw-bold">Graph</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 44</h5>
@@ -222,7 +239,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-primary fw-bold">Matrix</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 10</h5>
@@ -230,7 +250,10 @@
           <a class="btn btn-primary" href="mat.html" role="button">Start</a>
         </div>
       </div>
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-success fw-bold">
           Sorting and Searching
         </div>
@@ -244,7 +267,10 @@
 
     <!-- Div - 4 -->
     <div class="c4 d-flex justify-content-center">
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-2 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-success fw-bold">BackTracking</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 19</h5>
@@ -255,7 +281,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-2 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-primary fw-bold">Stack and Queues</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 38</h5>
@@ -264,7 +293,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-2 mx-2 my-3"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-danger fw-bold">Heap</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 18</h5>
@@ -276,7 +308,10 @@
 
     <!-- Div - 5 -->
     <div class="c5 d-flex justify-content-center">
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-4"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-danger fw-bold">Trie</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 6</h5>
@@ -285,7 +320,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-4"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-success fw-bold">Dynamic Programming</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 60</h5>
@@ -294,7 +332,10 @@
         </div>
       </div>
 
-      <div class="card text-black mb-3 mx-5 my-4" style="width:48vh;height:36vh">
+      <div
+        class="card text-black mb-3 mx-2 my-4"
+        style="width: 48vh; height: 36vh"
+      >
         <div class="card-header text-primary fw-bold">Bit Manipulation</div>
         <div class="card-body dflex">
           <h5 class="card-title">Total Question - 10</h5>
