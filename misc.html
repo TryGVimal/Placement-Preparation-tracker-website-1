@@ -25,54 +25,63 @@
       .elitmus {
         margin: 0px 5vh;
         background-color: rgb(204, 194, 194);
-        height: 32vh;
+        height: 35vh;
         width: 50vh;
         text-align: center;
         padding-top: 3vh;
       }
-      .elitmus:hover {
-        height: 33vh;
-        width: 51vh;
-        background-color: rgb(152, 203, 228);
-      }
-      .Cpp-Buzz:hover {
-        height: 33vh;
-        width: 51vh;
-        background-color: rgb(167, 228, 152);
-      }
+      
       .Cpp-Buzz {
         text-align: center;
         background-color: rgb(173, 173, 241);
-        height: 32vh;
+        height: 35vh;
         width: 50vh;
         padding-top: 3vh;
       }
-      #btn1:hover {
+      #btn1 {
+        border-radius: 1vh;
+        background-color: #007bff;
+        color: white;
+        height: 5vh;
+        width: 13vh;
+         margin-top: 3vh;
+      }
+      /* Cpp buzz Button */
+      #btn2 {
+        border-radius: 1vh;
         background-color: #dc3545;
+        color: white;
+        height: 5vh;
+        width: 13vh;
+        margin: 1vh auto;
+      }
+      #desc{
+         text-align: left;
+         margin: 2vh;
+        
+      }
+      .elitmus:hover {
+        background-color: rgb(152, 203, 228);
+        /* box-shadow: 10px 5px 10px rgb(222, 145, 145) ; */
+        border: 2vh solid rgb(173, 173, 241);;
+      }
+      .Cpp-Buzz:hover {
+        box-shadow: 10px 5px 10px rgb(100, 83, 83) ;
+        background-color: rgb(167, 228, 152);
+      }
+      #btn1:hover {
+        background-color: #984cf5;
         font-weight: bold;
         font-style: italic;
+        position: relative;
       }
       #btn2:hover {
-        background-color: #007bff;
+        background-color: #659ad1;
         font-weight: bold;
         font-style: italic;
+        
       }
-      #btn1 {
-        margin: 10vh;
-        border-radius: 2vh;
-        background-color: #007bff;
-        color: white;
-        height: 5vh;
-        width: 13vh;
-      }
-      #btn2 {
-        margin: 10vh;
-        border-radius: 2vh;
-        background-color: #dc3545;
-        color: white;
-        height: 5vh;
-        width: 13vh;
-      }
+    
       @media screen and (max-width: 901px) {
         .container {
           display: block;
@@ -164,13 +173,14 @@
     </nav>
 
     <!--Elitmus Container  -->
-    <div class="container fluid">
+    <div class="container">
       <div class="elitmus">
         <h1 class="fluid">Elitmus Prep</h1>
-        <p style="font-weight: bolder" class="fluid">
+        <h5 style="font-weight: bolder" class="fluid">
           Start your Preparation for Elitmus
-        </p>
+        </h5>
 
+        <p id="desc">eLitmus is a company that helps companies in hiring employees for entry-level jobs. The company conducts pH Test, which is an assessment exam.</p>
         <button
           id="btn1"
           class="fluid"
@@ -181,9 +191,10 @@
       </div>
       <div class="Cpp-Buzz fluid">
         <h1 class="fluid">CPP Buzz</h1>
-        <p class="fluid" style="font-weight: bolder">
+        <h5 class="fluid" style="font-weight: bolder">
           Interview Preparation Website
-        </p>
+        </h5>
+        <p id="desc">A single platform to get more than 1000+ competitive objective questions, interview questions from various IT companies, tutorials, practice material, solved programs, projects, cheat sheets and Online Test (Certificate).</p>
 
         <button
           id="btn2"
