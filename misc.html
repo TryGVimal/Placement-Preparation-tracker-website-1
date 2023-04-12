@@ -19,24 +19,22 @@
       .container {
         display: flex;
         margin: 10vh auto;
-        padding: 0 2vh;
         justify-content: center;
       }
       .elitmus {
         margin: 0px 5vh;
         background-color: rgb(204, 194, 194);
-        height: 35vh;
-        width: 50vh;
+        height: 40vh;
+        width: 55vh;
         text-align: center;
-        padding-top: 3vh;
       }
-      
+       
       .Cpp-Buzz {
         text-align: center;
         background-color: rgb(173, 173, 241);
-        height: 35vh;
-        width: 50vh;
-        padding-top: 3vh;
+        height: 40vh;
+        width: 55vh;
+       
       }
       #btn1 {
         border-radius: 1vh;
@@ -45,6 +43,7 @@
         height: 5vh;
         width: 13vh;
          margin-top: 3vh;
+         align-self: center;
       }
       /* Cpp buzz Button */
       #btn2 {
@@ -53,17 +52,21 @@
         color: white;
         height: 5vh;
         width: 13vh;
-        margin: 1vh auto;
+        align-self: center;
       }
       #desc{
-         text-align: left;
-         margin: 2vh;
+          
+         margin-left: 1px;
         
       }
       .elitmus:hover {
         background-color: rgb(152, 203, 228);
-        /* box-shadow: 10px 5px 10px rgb(222, 145, 145) ; */
-        border: 2vh solid rgb(173, 173, 241);;
+        box-shadow: 10px 5px 10px rgb(222, 145, 145) ;
+        
+      }
+      .paraBtn{
+        display: flex;
+        flex-direction: column;
       }
       .Cpp-Buzz:hover {
         box-shadow: 10px 5px 10px rgb(100, 83, 83) ;
@@ -82,20 +85,25 @@
         
       }
     
-      @media screen and (max-width: 901px) {
-        .container {
-          display: block;
+      @media screen and (max-width: 1000px) {
+        .container{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: 4vh auto;
         }
-        .Cpp-Buzz {
-          width: 35vh;
-          height: auto;
-          margin: auto auto;
+        .Cpp-Buzz{
+          align-self: center;
+          margin: 4vh auto;
         }
-        .elitmus {
-          height: auto;
-          width: 35vh;
-          margin: 3vh auto;
+        .elitmus{
+          align-self: center;
+          margin: 4vh auto;
         }
+
+         
+      
       }
       
     </style>
@@ -179,30 +187,31 @@
         <h5 style="font-weight: bolder" class="fluid">
           Start your Preparation for Elitmus
         </h5>
-
-        <p id="desc">eLitmus is a company that helps companies in hiring employees for entry-level jobs. The company conducts pH Test, which is an assessment exam.</p>
-        <button
-          id="btn1"
-          class="fluid"
-          onclick="window.location.href = 'https://www.geeksforgeeks.org/how-to-prepare-for-elitmus-hiring-potential-test-ph-test/';"
-        >
-          Click here
-        </button>
+        <div class="paraBtn">
+          <p id="desc">eLitmus is a company that helps companies in hiring employees for entry-level jobs. The company conducts pH Test, which is an assessment exam.</p>
+          <button
+            id="btn1"
+            class="fluid"
+            onclick="window.location.href = 'https://www.geeksforgeeks.org/how-to-prepare-for-elitmus-hiring-potential-test-ph-test/';"
+          >
+            Click here
+          </button>
+        </div>
       </div>
+
       <div class="Cpp-Buzz fluid">
         <h1 class="fluid">CPP Buzz</h1>
         <h5 class="fluid" style="font-weight: bolder">
           Interview Preparation Website
         </h5>
-        <p id="desc">A single platform to get more than 1000+ competitive objective questions, interview questions from various IT companies, tutorials, practice material, solved programs, projects, cheat sheets and Online Test (Certificate).</p>
-
+        <div class="paraBtn">
+        <p id="desc">A single platform to get more than 1000+ competitive objective questions, interview questions from various IT companies, tutorials, practice material, solved programs, projects, cheat sheets and Online Test.</p>
         <button
           id="btn2"
           class="fluid"
           onclick="window.location.href = 'https://www.cppbuzz.com/';"
-        >
-          Click here
-        </button>
+        >Click here</button>
+      </div>
       </div>
     </div>
 
