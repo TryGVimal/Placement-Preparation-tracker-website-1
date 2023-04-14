@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 5vh;
   margin: 5vh auto;
 }
 .items a{
@@ -53,4 +53,34 @@
 .item5:hover {
   color: white;
   box-shadow: 10px 5px 10px #5fc370;
+}
+
+/* Backend */
+.item6 {
+  background-color: #4040d9;
+}
+.item6:hover {
+  color: white;
+  box-shadow: 10px 5px 10px #4232d5;
+}
+.item7 {
+  background-color: #e213ae;
+}
+.item7:hover {
+  color: white;
+  box-shadow: 10px 5px 10px #e273d1;
+}
+.item8 {
+  background-color: #e2cd13;
+}
+.item8:hover {
+  color: white;
+  box-shadow: 10px 5px 10px #ddcc73;
+}
+.item9 {
+  background-color: #e27713;
+}
+.item9:hover {
+  color: white;
+  box-shadow: 10px 5px 10px #ea984c;
 }
